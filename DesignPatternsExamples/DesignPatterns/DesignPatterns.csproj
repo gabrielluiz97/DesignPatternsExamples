@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="03-Behavoral\" />
-    <Folder Include="02-Structural\" />
   </ItemGroup>
 
 </Project>
