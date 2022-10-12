@@ -20,6 +20,8 @@ namespace DesignPatterns._02_Structural._2._2_Facade
 
     public enum MeioDePagamento 
     {
-        CartaoCredito = 0
+        CartaoCredito = 0,
+        Boleto = 1,
+        Transferencia = 2,
     }
 }
