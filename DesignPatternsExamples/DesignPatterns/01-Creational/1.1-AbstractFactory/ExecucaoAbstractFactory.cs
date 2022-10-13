@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns._01_Creational._1._1___AbstractFactory.Factories
+namespace DesignPatterns._01_Creational._1._1___AbstractFactory
 {
     public static class ExecucaoAbstractFactory
     {
