@@ -41,7 +41,7 @@ namespace DesignPatterns._03_Behavoral._3._1_Command
 
             for (var i = 0; i < niveis; i++)
             {
-                if (_total >= _commands.Count - 1) continue;
+                if (_total <= 0) continue;
                 var command = _commands[--_total];
                 command.Desfazer();
             }
