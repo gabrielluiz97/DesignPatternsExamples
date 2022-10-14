@@ -32,7 +32,7 @@ namespace DesignPatterns._02_Structural._2._3_Composite
             domainUsuarioErro.AdicionarFilha(cpfUsuarioDomain);
             domainUsuarioErro.AdicionarFilha(emailUsuarioDomain);
 
-            validacaoCadastro.AdicionarFilha(usarioFormErro);
+            validacaoCadastro.AdicionarFilha(domainUsuarioErro);
 
             validacaoCadastro.ExibirMensagens(2);
         }
