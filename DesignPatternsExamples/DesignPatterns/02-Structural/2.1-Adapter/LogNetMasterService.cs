@@ -11,12 +11,12 @@ namespace DesignPatterns._02_Structural._2._1_Adapter
         public void LogInfo(string message)
         {
             {
-                Console.WriteLine($"Log padrão - {message}");
+                Console.WriteLine($"Log Customizado - {message}");
             }
         }
         public void LogError(Exception exception)
         {
-            Console.WriteLine($"Log padrão - {exception.Message}");
+            Console.WriteLine($"Log Customizado - {exception.Message}");
         }
 
     }
