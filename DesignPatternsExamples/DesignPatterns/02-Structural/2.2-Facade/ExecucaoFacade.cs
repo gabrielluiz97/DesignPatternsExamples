@@ -31,7 +31,9 @@ namespace DesignPatterns._02_Structural._2._2_Facade
 
             var pagamentoService = new PagamentoCartaoCreditoServico(new PagamentoCartaoCreditoFacade(new PayPalGateway(), new ConfigurationManager()));
 
-            pagamentoService.RealizarPagamento(pedido, pagamento);
+            var pagamentoResult = pagamentoService.RealizarPagamento(pedido, pagamento);
+
+            Console.WriteLine(pagamentoResult.Status);
         }
     }
 }
