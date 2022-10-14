@@ -14,7 +14,8 @@ namespace DesignPatterns._03_Behavoral._3._3_Observable
 
         protected Investimento(string simbolo, decimal valor)
         {
-
+            Simbolo = simbolo;
+            _valor = valor;
         }
 
         public string Simbolo { get; set; }
