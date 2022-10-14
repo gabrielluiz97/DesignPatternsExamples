@@ -16,7 +16,7 @@ public static class Program
         Console.WriteLine("Creational Patterns");
         Console.WriteLine("----------------------------------------------------");
         Console.WriteLine("1 - Abstract Factory");
-        Console.WriteLine("2 - Method Factory");
+        Console.WriteLine("2 - Factory Method");
         Console.WriteLine("----------------------------------------------------");
         Console.WriteLine("Structural Patterns");
         Console.WriteLine("----------------------------------------------------");

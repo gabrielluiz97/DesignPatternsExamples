@@ -10,7 +10,7 @@ namespace DesignPatterns._01_Creational._1._2___FactoryMethod.Factories
     {
         public override DbConnector CreateConnector(string connectionString)
         {
-            return new SqlServerConnector(connectionString);
+            return new OracleDbConnector(connectionString);
         }
     }
 }
